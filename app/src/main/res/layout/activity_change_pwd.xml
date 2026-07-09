@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改密码"
+        android:textSize="24sp"
+        android:textColor="#1F4E79"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/et_old_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="请输入旧密码"
+        android:inputType="textPassword"
+        android:paddingHorizontal="16dp"
+        android:background="@drawable/edit_bg"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="请输入新密码"
+        android:inputType="textPassword"
+        android:paddingHorizontal="16dp"
+        android:background="@drawable/edit_bg"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_confirm_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="请确认新密码"
+        android:inputType="textPassword"
+        android:paddingHorizontal="16dp"
+        android:background="@drawable/edit_bg"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_confirm_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="确认修改"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1F4E79"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_back_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="返  回"
+        android:textSize="18sp"
+        android:textColor="#1F4E79"
+        android:background="@drawable/btn_outline_bg" />
+
+</LinearLayout>
